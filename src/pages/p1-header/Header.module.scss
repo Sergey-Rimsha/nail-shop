@@ -1,0 +1,29 @@
+@import "src/styles/variables";
+@import "src/styles/mixins";
+
+
+.header {
+	border: 1px blue solid;
+}
+
+.logo {
+	@include fontRoboto();
+	display: flex;
+	align-items: center;
+
+	.title {
+		font-style: normal;
+		font-weight: 700;
+		font-size: 15px;
+		line-height: 18px;
+		color: #6B1C55;
+	}
+	.subtitle {
+		font-style: normal;
+		font-weight: 400;
+		font-size: 11px;
+		line-height: 13px;
+		color: rgba(75, 24, 61, 0.7);
+
+	}
+}
