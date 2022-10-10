@@ -1,0 +1,15 @@
+@import "src/styles/variables";
+@import "src/styles/mixins";
+
+
+.app {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: $whiteColorBg;
+}
+
+.container {
+  border: 2px solid red;
+  width: 1170px;
+}
