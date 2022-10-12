@@ -146,6 +146,8 @@
 		max-width: 320px;
 	}
 	.slider {
+		align-items: center;
+
 		&__imgWrap {
 			img {
 				max-width: 320px;
@@ -159,6 +161,11 @@
 				max-width: 320px;
 				height: auto;
 			}
+		}
+		&__description {
+			width: 150px;
+			height: 140px;
+			top: 170px;
 		}
 	}
 }
