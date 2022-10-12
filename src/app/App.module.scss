@@ -11,6 +11,21 @@
 
 .container {
   border: 2px solid red;
-  width: 1170px;
+  min-width: 1170px;
   padding-top: 45px
+}
+
+@media screen and (max-width: 1169px) {
+  .container {
+    min-width: 768px;
+    max-width: 768px;
+    margin: 0 15px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    min-width: 320px;
+    max-width: 320px;
+  }
 }

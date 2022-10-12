@@ -12,6 +12,7 @@
 	@include fontRoboto();
 	display: flex;
 	align-items: center;
+	max-width: 290px;
 
 	.title {
 		font-style: normal;
@@ -34,7 +35,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	width: 380px;
+	min-width: 380px;
 
 	@include fontRoboto();
 	font-style: normal;
@@ -49,7 +50,7 @@
 		transition: 0.3s;
 		&_active {
 			position: relative;
-			&::after {
+			&::before {
 				position: absolute;
 				bottom: -5px;
 				left: 0;
@@ -113,5 +114,29 @@
 		font-size: 12px;
 		line-height: 14px;
 		color: rgba(75, 24, 61, 0.7);
+	}
+}
+
+@media screen and (max-width: 1169px) {
+
+	.header {
+		max-width: 768px;
+	}
+
+	.nav {
+		display: none;
+	}
+
+	.phone {
+		&__wrapBtn {
+			display: none;
+		}
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.header {
+		flex-wrap: wrap;
+		max-width: 320px;
 	}
 }
