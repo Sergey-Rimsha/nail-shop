@@ -1,8 +1,10 @@
 import { ReactElement } from 'react';
 
 import sun5 from '../../assets/img/item_Sun5.png';
+import kodi2021 from '../../assets/img/kodi_2021.png';
 import nextBtn from '../../assets/img/next_btn.svg';
 import prevBtn from '../../assets/img/prev_btn.svg';
+import startedPack from '../../assets/img/started_pack.png';
 
 import s from './Arrivals.module.scss';
 
@@ -45,13 +47,66 @@ export const Arrivals = (): ReactElement => {
             </div>
             <div className={s.card__sum}>65 руб.</div>
           </div>
-
+          <div className={`${s.slider__item} ${s.card}`}>
+            <div className={s.card__title}>Sun 5, 48W</div>
+            <div className={s.card__img}>
+              <img width="180px" height="194px" src={sun5} alt="sun5" />
+            </div>
+            <div className={s.card__description}>
+              Мощность аппарата: Кол-ва светодиодов: Таймер:
+            </div>
+            <div className={s.card__sum}>65 руб.</div>
+          </div>
+          <div className={`${s.slider__item} ${s.card}`}>
+            <div className={s.card__title}>Sun 5, 48W</div>
+            <div className={s.card__img}>
+              <img width="180px" height="194px" src={sun5} alt="sun5" />
+            </div>
+            <div className={s.card__description}>
+              Мощность аппарата: Кол-ва светодиодов: Таймер:
+            </div>
+            <div className={s.card__sum}>65 руб.</div>
+          </div>
           <button className={s.slider__btn} type="button">
             <img src={nextBtn} alt="next" />
           </button>
         </div>
         <div className={s.slider__input}>
           <input type="range" min="0" max="100" />
+        </div>
+      </div>
+      <div className={`${s.arrivals__sales} ${s.sales}`}>
+        <div className={s.sales__item}>
+          <div className={s.sales__img}>
+            <img width="570px" height="497px" src={kodi2021} alt="kodi2021" />
+          </div>
+          <div className={`${s.sales__content} ${s.content}`}>
+            <div className={s.content__title}>Встречай весну с Kodi</div>
+            <div className={s.content__wrap}>
+              <div className={s.content__description}>
+                Новая яркая палитра цветов от Kodi Весна 2021
+              </div>
+              <div className={s.content__btn}>
+                <button type="button">Смотреть каталог</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className={s.sales__item}>
+          <div className={s.sales__img}>
+            <img width="570px" height="497px" src={startedPack} alt="startedPack" />
+          </div>
+          <div className={`${s.sales__content} ${s.content}`}>
+            <div className={s.content__title}>Начать свое дело- легко!</div>
+            <div className={s.content__wrap}>
+              <div className={s.content__description}>
+                Выбирай свой стартовый набор для маникюра
+              </div>
+              <div className={s.content__btn}>
+                <button type="button">Выбрать стартовый набор</button>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
