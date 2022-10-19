@@ -1,6 +1,8 @@
 import { ReactElement } from 'react';
 
 import sun5 from '../../assets/img/item_Sun5.png';
+import nextBtn from '../../assets/img/next_btn.svg';
+import prevBtn from '../../assets/img/prev_btn.svg';
 
 import s from './Arrivals.module.scss';
 
@@ -20,6 +22,9 @@ export const Arrivals = (): ReactElement => {
       </div>
       <div className={`${s.arrivals__slider} ${s.slider}`}>
         <div className={s.slider__wrapItem}>
+          <button className={s.slider__btn} type="button">
+            <img src={prevBtn} alt="prev" />
+          </button>
           <div className={`${s.slider__item} ${s.card}`}>
             <div className={s.card__title}>Sun 5, 48W</div>
             <div className={s.card__img}>
@@ -40,6 +45,13 @@ export const Arrivals = (): ReactElement => {
             </div>
             <div className={s.card__sum}>65 руб.</div>
           </div>
+
+          <button className={s.slider__btn} type="button">
+            <img src={nextBtn} alt="next" />
+          </button>
+        </div>
+        <div className={s.slider__input}>
+          <input type="range" min="0" max="100" />
         </div>
       </div>
     </section>
