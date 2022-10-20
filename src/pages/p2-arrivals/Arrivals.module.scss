@@ -144,13 +144,7 @@
 	}
 
 	&__description {
-		@include fontRoboto();
-		font-style: normal;
-		font-weight: 500;
-		font-size: 12px;
-		line-height: 14px;
 
-		color: $mainText;
 	}
 
 	&__sum {
@@ -162,6 +156,25 @@
 		color: #6B1C55;
 	}
 }
+
+.description {
+	@include fontRoboto();
+	font-style: normal;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 14px;
+	color: $mainText;
+
+	width: 100%;
+
+	&__item {
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+	}
+
+}
+
 
 .sales {
 	display: flex;

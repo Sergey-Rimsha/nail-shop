@@ -32,8 +32,19 @@ export const Arrivals = (): ReactElement => {
             <div className={s.card__img}>
               <img width="180px" height="194px" src={sun5} alt="sun5" />
             </div>
-            <div className={s.card__description}>
-              Мощность аппарата: Кол-ва светодиодов: Таймер:
+            <div className={`${s.card__description} ${s.description}`}>
+              <div className={s.description__item}>
+                <span>Мощность аппарата:</span>
+                <span>48 Вт</span>
+              </div>
+              <div className={s.description__item}>
+                <span>Кол-ва светодиодов:</span>
+                <span>24 шт</span>
+              </div>
+              <div className={s.description__item}>
+                <span>Таймер:</span>
+                <span>10/30/60 сек</span>
+              </div>
             </div>
             <div className={s.card__sum}>65 руб.</div>
           </div>
@@ -42,8 +53,19 @@ export const Arrivals = (): ReactElement => {
             <div className={s.card__img}>
               <img width="180px" height="194px" src={sun5} alt="sun5" />
             </div>
-            <div className={s.card__description}>
-              Мощность аппарата: Кол-ва светодиодов: Таймер:
+            <div className={`${s.card__description} ${s.description}`}>
+              <div className={s.description__item}>
+                <span>Мощность аппарата:</span>
+                <span>48 Вт</span>
+              </div>
+              <div className={s.description__item}>
+                <span>Кол-ва светодиодов:</span>
+                <span>24 шт</span>
+              </div>
+              <div className={s.description__item}>
+                <span>Таймер:</span>
+                <span>10/30/60 сек</span>
+              </div>
             </div>
             <div className={s.card__sum}>65 руб.</div>
           </div>
@@ -52,8 +74,19 @@ export const Arrivals = (): ReactElement => {
             <div className={s.card__img}>
               <img width="180px" height="194px" src={sun5} alt="sun5" />
             </div>
-            <div className={s.card__description}>
-              Мощность аппарата: Кол-ва светодиодов: Таймер:
+            <div className={`${s.card__description} ${s.description}`}>
+              <div className={s.description__item}>
+                <span>Мощность аппарата:</span>
+                <span>48 Вт</span>
+              </div>
+              <div className={s.description__item}>
+                <span>Кол-ва светодиодов:</span>
+                <span>24 шт</span>
+              </div>
+              <div className={s.description__item}>
+                <span>Таймер:</span>
+                <span>10/30/60 сек</span>
+              </div>
             </div>
             <div className={s.card__sum}>65 руб.</div>
           </div>
@@ -62,8 +95,19 @@ export const Arrivals = (): ReactElement => {
             <div className={s.card__img}>
               <img width="180px" height="194px" src={sun5} alt="sun5" />
             </div>
-            <div className={s.card__description}>
-              Мощность аппарата: Кол-ва светодиодов: Таймер:
+            <div className={`${s.card__description} ${s.description}`}>
+              <div className={s.description__item}>
+                <span>Мощность аппарата:</span>
+                <span>48 Вт</span>
+              </div>
+              <div className={s.description__item}>
+                <span>Кол-ва светодиодов:</span>
+                <span>24 шт</span>
+              </div>
+              <div className={s.description__item}>
+                <span>Таймер:</span>
+                <span>10/30/60 сек</span>
+              </div>
             </div>
             <div className={s.card__sum}>65 руб.</div>
           </div>
