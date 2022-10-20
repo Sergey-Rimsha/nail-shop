@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/nail-shop/static/css/main.df82d55b.css",
-    "main.js": "/nail-shop/static/js/main.13a0a0b2.js",
+    "main.css": "/nail-shop/static/css/main.b4b7aa3a.css",
+    "main.js": "/nail-shop/static/js/main.26ae35d2.js",
     "static/js/787.46e43bb1.chunk.js": "/nail-shop/static/js/787.46e43bb1.chunk.js",
     "static/media/started_pack.png": "/nail-shop/static/media/started_pack.05da805d5dbfc354fa97.png",
     "static/media/kodi_2021.png": "/nail-shop/static/media/kodi_2021.b72e6aa806031f96eea4.png",
@@ -13,12 +13,12 @@
     "static/media/arrow.svg": "/nail-shop/static/media/arrow.7ae50c986348afe2446ce98ee4fdd755.svg",
     "static/media/prev_btn.svg": "/nail-shop/static/media/prev_btn.48f8d7b679698402b762b29f3dec1312.svg",
     "static/media/next_btn.svg": "/nail-shop/static/media/next_btn.beb879157f5b7cd9e10bc72949b501b8.svg",
-    "main.df82d55b.css.map": "/nail-shop/static/css/main.df82d55b.css.map",
-    "main.13a0a0b2.js.map": "/nail-shop/static/js/main.13a0a0b2.js.map",
+    "main.b4b7aa3a.css.map": "/nail-shop/static/css/main.b4b7aa3a.css.map",
+    "main.26ae35d2.js.map": "/nail-shop/static/js/main.26ae35d2.js.map",
     "787.46e43bb1.chunk.js.map": "/nail-shop/static/js/787.46e43bb1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.df82d55b.css",
-    "static/js/main.13a0a0b2.js"
+    "static/css/main.b4b7aa3a.css",
+    "static/js/main.26ae35d2.js"
   ]
 }
