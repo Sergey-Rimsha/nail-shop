@@ -98,13 +98,11 @@ export const Arrivals = (): ReactElement => {
           </div>
           <div className={`${s.sales__content} ${s.content}`}>
             <div className={s.content__title}>Начать свое дело- легко!</div>
-            <div className={s.content__wrap}>
-              <div className={s.content__description}>
-                Выбирай свой стартовый набор для маникюра
-              </div>
-              <div className={s.content__btn}>
-                <button type="button">Выбрать стартовый набор</button>
-              </div>
+            <div className={s.content__description}>
+              Выбирай свой стартовый набор для маникюра
+            </div>
+            <div className={s.content__btn}>
+              <button type="button">Выбрать стартовый набор</button>
             </div>
           </div>
         </div>
