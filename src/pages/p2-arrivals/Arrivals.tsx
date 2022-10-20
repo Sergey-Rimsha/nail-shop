@@ -5,10 +5,17 @@ import kodi2021 from '../../assets/img/kodi_2021.png';
 import nextBtn from '../../assets/img/next_btn.svg';
 import prevBtn from '../../assets/img/prev_btn.svg';
 import startedPack from '../../assets/img/started_pack.png';
+import { Card } from '../../components/c0-card/Card';
 
 import s from './Arrivals.module.scss';
 
 export const Arrivals = (): ReactElement => {
+  const description = [
+    { name: 'Мощность аппарата:', value: '48 Вт' },
+    { name: 'Кол-ва светодиодов:', value: '24 шт' },
+    { name: 'Таймер:', value: '10/30/60 сек' },
+  ];
+
   return (
     <section className={s.arrivals}>
       <div className={s.arrivals__header}>
@@ -27,89 +34,17 @@ export const Arrivals = (): ReactElement => {
           <button className={s.slider__btn} type="button">
             <img src={prevBtn} alt="prev" />
           </button>
-          <div className={`${s.slider__item} ${s.card}`}>
-            <div className={s.card__title}>Sun 5, 48W</div>
-            <div className={s.card__img}>
-              <img width="180px" height="194px" src={sun5} alt="sun5" />
-            </div>
-            <div className={`${s.card__description} ${s.description}`}>
-              <div className={s.description__item}>
-                <span>Мощность аппарата:</span>
-                <span>48 Вт</span>
-              </div>
-              <div className={s.description__item}>
-                <span>Кол-ва светодиодов:</span>
-                <span>24 шт</span>
-              </div>
-              <div className={s.description__item}>
-                <span>Таймер:</span>
-                <span>10/30/60 сек</span>
-              </div>
-            </div>
-            <div className={s.card__sum}>65 руб.</div>
+          <div className={s.slider__item}>
+            <Card srcImg={sun5} description={description} />
           </div>
-          <div className={`${s.slider__item} ${s.card}`}>
-            <div className={s.card__title}>Sun 5, 48W</div>
-            <div className={s.card__img}>
-              <img width="180px" height="194px" src={sun5} alt="sun5" />
-            </div>
-            <div className={`${s.card__description} ${s.description}`}>
-              <div className={s.description__item}>
-                <span>Мощность аппарата:</span>
-                <span>48 Вт</span>
-              </div>
-              <div className={s.description__item}>
-                <span>Кол-ва светодиодов:</span>
-                <span>24 шт</span>
-              </div>
-              <div className={s.description__item}>
-                <span>Таймер:</span>
-                <span>10/30/60 сек</span>
-              </div>
-            </div>
-            <div className={s.card__sum}>65 руб.</div>
+          <div className={s.slider__item}>
+            <Card srcImg={sun5} description={description} />
           </div>
-          <div className={`${s.slider__item} ${s.card}`}>
-            <div className={s.card__title}>Sun 5, 48W</div>
-            <div className={s.card__img}>
-              <img width="180px" height="194px" src={sun5} alt="sun5" />
-            </div>
-            <div className={`${s.card__description} ${s.description}`}>
-              <div className={s.description__item}>
-                <span>Мощность аппарата:</span>
-                <span>48 Вт</span>
-              </div>
-              <div className={s.description__item}>
-                <span>Кол-ва светодиодов:</span>
-                <span>24 шт</span>
-              </div>
-              <div className={s.description__item}>
-                <span>Таймер:</span>
-                <span>10/30/60 сек</span>
-              </div>
-            </div>
-            <div className={s.card__sum}>65 руб.</div>
+          <div className={s.slider__item}>
+            <Card srcImg={sun5} description={description} />
           </div>
-          <div className={`${s.slider__item} ${s.card}`}>
-            <div className={s.card__title}>Sun 5, 48W</div>
-            <div className={s.card__img}>
-              <img width="180px" height="194px" src={sun5} alt="sun5" />
-            </div>
-            <div className={`${s.card__description} ${s.description}`}>
-              <div className={s.description__item}>
-                <span>Мощность аппарата:</span>
-                <span>48 Вт</span>
-              </div>
-              <div className={s.description__item}>
-                <span>Кол-ва светодиодов:</span>
-                <span>24 шт</span>
-              </div>
-              <div className={s.description__item}>
-                <span>Таймер:</span>
-                <span>10/30/60 сек</span>
-              </div>
-            </div>
-            <div className={s.card__sum}>65 руб.</div>
+          <div className={s.slider__item}>
+            <Card srcImg={sun5} description={description} />
           </div>
           <button className={s.slider__btn} type="button">
             <img src={nextBtn} alt="next" />
