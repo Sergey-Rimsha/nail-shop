@@ -1,0 +1,28 @@
+@import "src/styles/variables";
+@import "src/styles/mixins";
+
+.catalog {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 84px;
+
+	&__title {
+		width: 100%;
+		& h2 {
+			margin: 0;
+			@include sectionTitle();
+		}
+	}
+
+	&__content {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		margin-top: 35px;
+	}
+
+	&__item {
+		margin: 35px 15px 0 0;
+	}
+}

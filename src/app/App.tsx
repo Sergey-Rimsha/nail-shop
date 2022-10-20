@@ -3,6 +3,7 @@ import React, { ReactElement } from 'react';
 import { Main } from '../pages/p0-main/Main';
 import { Header } from '../pages/p1-header/Header';
 import { Arrivals } from '../pages/p2-arrivals/Arrivals';
+import { Catalog } from '../pages/p3-catalog/Catalog';
 
 import s from './App.module.scss';
 
@@ -13,6 +14,7 @@ export const App = (): ReactElement => {
         <Header />
         <Main />
         <Arrivals />
+        <Catalog />
       </div>
     </div>
   );

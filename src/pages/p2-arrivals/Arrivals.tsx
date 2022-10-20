@@ -30,21 +30,23 @@ export const Arrivals = (): ReactElement => {
         </div>
       </div>
       <div className={`${s.arrivals__slider} ${s.slider}`}>
-        <div className={s.slider__wrapItem}>
+        <div className={s.slider__content}>
           <button className={s.slider__btn} type="button">
             <img src={prevBtn} alt="prev" />
           </button>
-          <div className={s.slider__item}>
-            <Card srcImg={sun5} description={description} />
-          </div>
-          <div className={s.slider__item}>
-            <Card srcImg={sun5} description={description} />
-          </div>
-          <div className={s.slider__item}>
-            <Card srcImg={sun5} description={description} />
-          </div>
-          <div className={s.slider__item}>
-            <Card srcImg={sun5} description={description} />
+          <div className={s.slider__wrapItem}>
+            <div className={s.slider__item}>
+              <Card srcImg={sun5} description={description} />
+            </div>
+            <div className={s.slider__item}>
+              <Card srcImg={sun5} description={description} />
+            </div>
+            <div className={s.slider__item}>
+              <Card srcImg={sun5} description={description} />
+            </div>
+            <div className={s.slider__item}>
+              <Card srcImg={sun5} description={description} />
+            </div>
           </div>
           <button className={s.slider__btn} type="button">
             <img src={nextBtn} alt="next" />

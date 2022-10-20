@@ -1,4 +1,14 @@
+@import "./mixins";
 
 @mixin fontRoboto() {
 	font-family: 'Roboto', sans-serif;
+}
+
+@mixin sectionTitle() {
+	@include fontRoboto();
+	font-style: normal;
+	font-weight: 900;
+	font-size: 29px;
+	line-height: 34px;
+	color: $colorTitle;
 }
