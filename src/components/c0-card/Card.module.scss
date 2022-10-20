@@ -6,11 +6,11 @@
 	flex-direction: column;
 	justify-content: space-between;
 
-	width: 270px;
+	width: 265px;
 	height: 340px;
 	background: $whiteColorBg;
-	box-shadow: 1px 1px 8px 1px rgba(110, 33, 117, 0.25);
-	padding: 16px;
+	box-shadow: 1px 1px 5px 1px rgba(110, 33, 117, 0.25);
+	padding: 15px;
 
 	&__title {
 		@include fontRoboto();

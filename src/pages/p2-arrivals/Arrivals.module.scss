@@ -77,7 +77,6 @@
 
 	&__wrapItem {
 		display: flex;
-		justify-content: center;
 		overflow: hidden;
 	}
 
@@ -223,13 +222,8 @@
 
 @media screen and (max-width: 1169px) {
 	.slider {
-
 		&__btn {
 			display: none;
-		}
-
-		&__content {
-
 		}
 	}
 }
@@ -243,8 +237,6 @@
 		}
 
 		& img {
-			//width: 370px;
-			//height: 462px;
 			object-fit: cover;
 		}
 	}
@@ -257,10 +249,6 @@
 		&__item {
 			width: 249px;
 			height: 462px;
-		}
-
-		& img {
-			object-fit: cover;
 		}
 	}
 }
