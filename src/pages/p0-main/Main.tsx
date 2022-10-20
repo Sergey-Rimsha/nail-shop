@@ -26,13 +26,22 @@ export const Main = (): ReactElement => {
           <div className={s.slider__dotBg}>
             <img width="444px" height="299px" src={dotBg} alt="dot_bg" />
           </div>
-          <div className={s.slider__description}>
-            <h3 className={s.slider__title}>LED/UV лампа №3431</h3>
-            <ul>
-              <li>Мощность: 72 Вт</li>
-              <li>Светодиоды: 24 шт</li>
-              <li>Таймер: 10/30/60/99</li>
-            </ul>
+          <div className={`${s.slider__description} ${s.description}`}>
+            <div className={s.description__content}>
+              <h3 className={s.description__title}>LED/UV лампа №3431</h3>
+              <div className={s.description__item}>
+                <span>Мощность:</span>
+                <span>72 Вт</span>
+              </div>
+              <div className={s.description__item}>
+                <span>Светодиоды:</span>
+                <span>24 шт</span>
+              </div>
+              <div className={s.description__item}>
+                <span>Таймер:</span>
+                <span>10/30/60/99 сек</span>
+              </div>
+            </div>
           </div>
         </div>
       </div>
