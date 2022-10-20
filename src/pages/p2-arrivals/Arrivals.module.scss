@@ -8,11 +8,9 @@
 
 	&__header {
 		display: flex;
-		border: 1px solid red;
 	}
 
 	&__title {
-		//display: flex;
 		min-width: 280px;
 
 		& h2 {
