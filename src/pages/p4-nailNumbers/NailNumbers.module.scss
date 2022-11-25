@@ -1,0 +1,41 @@
+@import "src/styles/variables";
+@import "src/styles/mixins";
+
+.nailNumbers {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 84px;
+
+	&__title {
+		width: 100%;
+		& h2 {
+			margin: 0;
+			@include sectionTitle();
+		}
+	}
+
+	&__wrapItems {
+		display: flex;
+		width: 100%;
+		margin-top: 63px;
+	}
+}
+
+.item {
+	display: flex;
+	max-width: 250px;
+	align-items: center;
+	&__title {
+		@include fontRoboto();
+		font-style: normal;
+		font-weight: 900;
+		font-size: 52px;
+		line-height: 61px;
+		color: $colorTitle;
+	}
+
+	&__description {
+		margin-left: 5px;
+	}
+}
