@@ -17,6 +17,7 @@
 
 	&__wrapItems {
 		display: flex;
+		justify-content: space-between;
 		width: 100%;
 		margin-top: 63px;
 	}
@@ -37,5 +38,11 @@
 
 	&__description {
 		margin-left: 5px;
+		@include fontRoboto();
+		font-style: normal;
+		font-weight: 400;
+		font-size: 13px;
+		line-height: 15px;
+		color: rgba(75, 24, 61, 0.7);
 	}
 }
